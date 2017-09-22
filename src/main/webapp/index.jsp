@@ -93,7 +93,7 @@
 			else
 				out.print("Seu IMC eh: "+imc + " e voce esta obeso");
 		}
-		else if(sexo.equals("Feminino") == false)
+		else if(sexo.equals("Feminino") == true)
 		{
 			if(imc < 19.1)
 				out.print("Seu IMC eh: "+imc + " e voce esta abaixo do peso");
